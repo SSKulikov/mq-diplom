@@ -1092,7 +1092,7 @@
   
   @media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
     .trends {
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
     }
   
     .trend-wrapper:nth-child(2n + 3) {
@@ -1100,14 +1100,17 @@
     }
   
     .trend-wrapper {
-      width: calc(100% / 4);
+      width: 45%;
+      margin: 1.5%;
     }
   
     .trend-card {
-      padding: 10%;
+      padding-top: 15%;
+      padding-bottom: 15%;
     }
   
     .trend-title-link {
-      font-size: 70%;
+      font-size: 1.5em;
+      margin-bottom: 2em;
     }
   }
